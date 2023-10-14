@@ -1,0 +1,185 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "nombre": "Pizza pequena",
+      "precio": 10,
+      "categoria": 1
+    },
+    {
+      "id": 2,
+      "nombre": "Pizza mediana",
+      "precio": 15,
+      "categoria": 1
+    },
+    {
+      "id": 3,
+      "nombre": "Pizza grande",
+      "precio": 20,
+      "categoria": 1
+    },
+    {
+      "id": 4,
+      "nombre": "Pie de limon",
+      "precio": 5,
+      "categoria": 2
+    },
+    {
+      "id": 5,
+      "nombre": "Pie de Parchita",
+      "precio": 5,
+      "categoria": 2
+    },
+    {
+      "id": 6,
+      "nombre": "Torta de Chocolate",
+      "precio": 5,
+      "categoria": 2
+    },
+    {
+      "id": 7,
+      "nombre": "Torta de fresa",
+      "precio": 5,
+      "categoria": 2
+    },
+    {
+      "id": 8,
+      "nombre": "Jugo de Naranja",
+      "precio": 2,
+      "categoria": 3
+    },
+    {
+      "id": 9,
+      "nombre": "Jugo de fresa",
+      "precio": 2,
+      "categoria": 3
+    },
+    {
+      "id": 10,
+      "nombre": "Jugo de parchita",
+      "precio": 2,
+      "categoria": 3
+    },
+    {
+      "id": 11,
+      "nombre": "Chuleta ahumada",
+      "precio": 6,
+      "categoria": 4
+    },
+    {
+      "id": 12,
+      "nombre": "Pollo en brasa",
+      "precio": 6,
+      "categoria": 4
+    },
+    {
+      "id": 13,
+      "nombre": "Carne en vara",
+      "precio": 6,
+      "categoria": 4
+    },
+    {
+      "id": 14,
+      "nombre": "Cafe",
+      "precio": 2,
+      "categoria": 5
+    },
+    {
+      "id": 15,
+      "nombre": "Late de vainilla",
+      "precio": 2,
+      "categoria": 5
+    },
+    {
+      "id": 16,
+      "nombre": "Capuchino",
+      "precio": 2,
+      "categoria": 5
+    },
+    {
+      "id": 17,
+      "nombre": "Cerveza",
+      "precio": 0.5,
+      "categoria": 6
+    },
+    {
+      "id": 18,
+      "nombre": "Ron",
+      "precio": 2,
+      "categoria": 6
+    },
+    {
+      "id": 19,
+      "nombre": "Helado de fresa",
+      "precio": 2,
+      "categoria": 2
+    },
+    {
+      "id": 20,
+      "nombre": "Helado de chocolate",
+      "precio": 2,
+      "categoria": 2
+    }
+  ],
+  "Cliente": [
+    {
+      "mesa": "1",
+      "hora": "22:34",
+      "pedido": [
+        {
+          "id": 20,
+          "nombre": "Helado de chocolate",
+          "precio": 2,
+          "categoria": 2,
+          "cantidad": 1
+        }
+      ],
+      "mesero": "Daniel",
+      "id": 1
+    },
+    {
+      "mesa": "1",
+      "hora": "20:14",
+      "pedido": [
+        {
+          "id": 17,
+          "nombre": "Cerveza",
+          "precio": 0.5,
+          "categoria": 6,
+          "cantidad": 1
+        }
+      ],
+      "mesero": "Juan",
+      "id": 4
+    },
+    {
+      "mesa": "2",
+      "hora": "02:06",
+      "pedido": [
+        {
+          "id": 1,
+          "nombre": "Pizza pequena",
+          "precio": 10,
+          "categoria": 1,
+          "cantidad": 1
+        }
+      ],
+      "mesero": "Daniel",
+      "id": 5
+    }
+  ],
+  "Mesero": [
+    {
+      "nombre": "Daniel",
+      "id": 1
+    },
+    {
+      "nombre": "Juan",
+      "id": 2
+    },
+    {
+      "nombre": "Martha",
+      "id": 3
+    }
+  ]
+}

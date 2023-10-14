@@ -1,0 +1,11 @@
+body{
+    background: #424e5a;
+}
+
+.color{
+    background-color: #a2b1be;
+}
+
+.show-notification {
+    display: block;
+  }
